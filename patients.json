@@ -1,0 +1,15 @@
+[
+  {
+    "name": "テスト太郎",
+    "age": 65,
+    "chief_complaint": "嘔吐",
+    "pain_score": 8,
+    "vital_temp": 38.5,
+    "vital_spo2": 98,
+    "vital_bp": "120/80",
+    "notes": null,
+    "id": 1,
+    "arrived_at": "2026-04-16T19:05:31.478718",
+    "triage_level": 2
+  }
+]
