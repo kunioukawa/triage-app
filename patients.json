@@ -1,15 +1,52 @@
 [
   {
-    "name": "テスト太郎",
-    "age": 65,
-    "chief_complaint": "嘔吐",
-    "pain_score": 8,
-    "vital_temp": 38.5,
-    "vital_spo2": 98,
-    "vital_bp": "120/80",
-    "notes": null,
     "id": 1,
-    "arrived_at": "2026-04-16T19:05:31.478718",
-    "triage_level": 2
+    "name": "山田 太郎",
+    "kana": "ヤマダ タロウ",
+    "age": 72,
+    "reception_time": "09:00",
+    "is_new_visit": false,
+    "status": "未対応",
+    "questionnaire": null
+  },
+  {
+    "id": 2,
+    "name": "鈴木 花子",
+    "kana": "スズキ ハナコ",
+    "age": 65,
+    "reception_time": "09:15",
+    "is_new_visit": false,
+    "status": "未対応",
+    "questionnaire": null
+  },
+  {
+    "id": 3,
+    "name": "佐藤 一郎",
+    "kana": "サトウ イチロウ",
+    "age": 58,
+    "reception_time": "09:30",
+    "is_new_visit": true,
+    "status": "未対応",
+    "questionnaire": null
+  },
+  {
+    "id": 4,
+    "name": "田中 幸子",
+    "kana": "タナカ サチコ",
+    "age": 80,
+    "reception_time": "09:45",
+    "is_new_visit": false,
+    "status": "未対応",
+    "questionnaire": null
+  },
+  {
+    "id": 5,
+    "name": "伊藤 健",
+    "kana": "イトウ ケン",
+    "age": 45,
+    "reception_time": "10:00",
+    "is_new_visit": false,
+    "status": "未対応",
+    "questionnaire": null
   }
 ]
