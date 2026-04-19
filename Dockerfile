@@ -13,6 +13,9 @@ COPY frontend/dist ./frontend/dist
 # data directory (overridden by volume mount on NAS)
 RUN mkdir -p /app/data/import /app/data/export
 
+# initial empty patients list
+RUN echo '[]' > /app/data/patients.json
+
 EXPOSE 8000
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \

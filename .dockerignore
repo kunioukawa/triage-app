@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.tar.gz
+.git/
+frontend/node_modules/
+frontend/src/
+frontend/public/
+frontend/.gitignore
+frontend/eslint.config.js
+frontend/vite.config.js
+data/
+scripts/
+*.md
+.gitignore
