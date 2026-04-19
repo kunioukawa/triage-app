@@ -1,14 +1,5 @@
 patients.json
-venv/
-node_modules/
-__pycache__/
-*.tar.gz
-patients.json
-venv/
-node_modules/
-__pycache__/
-*.tar.gz
-patients.json
+data/*.json
 venv/
 node_modules/
 __pycache__/

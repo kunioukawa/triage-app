@@ -1,0 +1,19 @@
+services:
+  triage:
+    build: .
+    image: triage-app:latest
+    container_name: triage-app
+    ports:
+      - "8000:8000"          # iPad から http://<NASのIP>:8000 でアクセス
+    volumes:
+      - ./data:/app/data     # NAS共有フォルダにデータを永続化
+    environment:
+      - DATA_DIR=/app/data
+    restart: unless-stopped  # NAS再起動時に自動起動
+    healthcheck:
+      test: ["CMD", "python", "-c",
+             "import urllib.request; urllib.request.urlopen('http://localhost:8000/patients')"]
+      interval: 30s
+      timeout: 10s
+      start_period: 10s
+      retries: 3

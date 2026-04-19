@@ -13,7 +13,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_FILE = "patients.json"
+DATA_DIR = os.environ.get("DATA_DIR", ".")
+DATA_FILE = os.path.join(DATA_DIR, "patients.json")
 
 
 def load_patients():
