@@ -1,7 +1,7 @@
 services:
   triage:
-    build: .
-    image: triage-app:latest
+    image: t0nari/triage-app:latest    # docker pull t0nari/triage-app:latest
+    # build: .                         # ローカルビルド時はこちらをコメントイン
     container_name: triage-app
     ports:
       - "8000:8000"          # iPad から http://<NASのIP>:8000 でアクセス

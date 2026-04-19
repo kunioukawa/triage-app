@@ -6,7 +6,7 @@
 # ============================================================
 set -e
 
-DOCKERHUB_USER="${1:-}"
+DOCKERHUB_USER="${1:-t0nari}"
 APP_NAME="triage-app"
 TAG="latest"
 
